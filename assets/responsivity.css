@@ -1,0 +1,184 @@
+/*resposividade*/
+
+@media screen and (max-width: 1250px) {
+    .block2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+
+    .block2 .container .container-side1 {
+        margin-top: -40px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 600px;
+        width: 500px;
+        background-size: cover;
+    }
+
+    .block2 .container .container-side2 {
+        margin-top: -40px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 600px;
+        width: 500px;
+        background-size: cover;
+    }
+
+    .block2 .container .container-center {
+        margin-top: -40px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 600px;
+        width: 500px;
+        background-size: cover;
+    }
+
+    .block3 .container .content-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block2 .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .block3 .container {
+        height: 1000px;
+    }
+
+    .block3 .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block3 .container .button-container {
+        margin-bottom: 30px;
+    }
+
+    .block4 .container {
+        height: 1500px;
+    }
+
+    .block4 .container .upper-division {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block4 .container .upper-division .upper-img {
+        width: 100%;
+        background-image: linear-gradient(to bottom, rgba(242, 242, 242, 0), rgba(242, 242, 242, 1)95%), url('./img/restaurante-img.jpg');
+    }
+
+    .block4 .container .upper-division .text {
+        width: 100%;
+
+    }
+
+    .block4 .container .lower-division {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block4 .container .lower-division .lower-img {
+        width: 100%;
+        background-image: linear-gradient(to bottom, rgba(242, 242, 242, 0), rgba(242, 242, 242, 1)99%), url('./img/cozinha-img.jpg');
+    }
+
+    .block4 .container .lower-division .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+
+    header .container h1 {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    header .container ul {
+        margin-right: 0px;
+    }
+
+    header .container li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .block1 .container .container2 h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .block2 .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .block2 .container .container-side1 {
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+    }
+
+    .block2 .container .container-side2 {
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+    }
+
+    .block2 .container .container-center {
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+    }
+
+    .block4 .container .text p {
+        margin-left: 70px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .block1 .container .container2 h1{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .block1 .container .container2 h1{
+        font-size: 65px;
+    }
+
+    .block1 .container .container2 h3{
+        font-size: 18px;
+        margin-top: -10px;
+    }
+}
